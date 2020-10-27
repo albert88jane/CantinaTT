@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>tranversal</title>
+        <style>
+            #menu1{
+                display: none;
+                background-color: green;
+            }
+            #menu2{
+                display: none;
+                background-color: red;
+            } 
+        </style>
+        <script  language="javascript" type="text/javascript">
+        window.onload= function(){
+
+            var horas = new Date();
+            var horaActual = horas.getHours();
+            var minutoActual = horas.getMinutes();
+            
+            if (horaActual <= 11 & minutoActual <= 30){
+
+                document.getElementById('menu1').style.display = "block";
+            }
+            else{
+
+                document.getElementById('menu2').style.display = "block";
+            }
+        }
+        
+        </script>
+        
+    </head>
+    <body>
+        
+        <div id="menu1">
+            <h2>Viva el Betis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="menu2">
+            <h2>Viva el Betis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </body>
+</html>
