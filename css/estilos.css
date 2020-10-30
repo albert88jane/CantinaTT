@@ -1,16 +1,13 @@
-*{
-    box-sizing: border-box;
-}
-body{  
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+
+
 .barranav{    
     background-color: white;
     display: flex;
-    position: relative;
-    padding-bottom: 10px;
+    position: fixed;
+    z-index: 40;
+    width:100%
+
+    
 }
 .logo{
     display: inline-block;
@@ -24,6 +21,7 @@ body{
     font-size: 2rem;
     text-align: center;
     font-family: Arial;
+    position: relative;
     
 }
 .navegacion{ 
@@ -111,11 +109,101 @@ li :hover {
 
 
 
-footer{
-    position: absolute;
+.footer1{
+    
     bottom: 0;
     width: 100%;
-    background: black;
+    background: #00263C;
     color: white;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+
+.imagen_inicio{
+    width: 100%; 
+    filter:brightness(0.5); 
+    height: 100%; 
+ }
+ 
+ .caja_imagen{
+    background: url("/img/entrada.jpg") center center no-repeat;
+    width: 100%;        
+    overflow: hidden;
+    height: 88vh;
+    position: relative;
+    background-attachment: fixed;
+    background-size:cover;
+ }
+ 
+ .texto_encima{  
+    padding-right:15%;
+    padding-left:15%;     
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px #158ED4;
+    text-align: center;
+    margin-top: 10%;
+ }
+ .texto_parrafo {         
+    padding-right:15%;
+    padding-left:15%; 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #13A8FF;
+    text-align: center;
+ }
+
+ body{
+    margin: 0px;
+    
+ }
+
+ body{
+    background-color: #BFE7FF;
+
+ }
+
+ #titolseccio{
+
+    text-align: center;
+ }
+
+ .seccio1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    position: relative;
+ }
+.divbotons{
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px 10px 10px;
+}
+#menubutton{
+
+    padding-left: 10px;
+}
+#adminbutton{
+    padding-left: 100px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #158ED4;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color:#158ED4;
+
+
+}
+
+#logofooter{
+
+    width: 70px;
     
 }

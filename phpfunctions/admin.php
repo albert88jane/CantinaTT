@@ -1,9 +1,6 @@
 
  <?php
 
-
-
-
     $logins = array("Albert"=>"albertpassword", "Alvaro"=>"alvaropassword", "Andrea"=>"andreapassword" , "Bayron"=>"bayronpassword");
 
     $nom = $_REQUEST['usuari'];
