@@ -1,12 +1,9 @@
-<?php 
-    
-  session_start();
 
+<?php
+ $_SESSION['pantalla']=1; 
 
-
+ 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,12 +27,12 @@
         
         <div class="divbotons">
                <div id="menubutton">
-                    <form action="post">
+                    <form action="phpfunctions/lan_menu.php">
                         <input type="submit" value="Menú"></input>
                     </form>
                 </div>
                 <div id="adminbutton">
-                <form action="post">
+                <form action="phpfunctions/login.php">
                         <input type="submit" value="Administració"></input>
                 </form>
 

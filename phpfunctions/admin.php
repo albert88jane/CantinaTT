@@ -13,13 +13,13 @@
 
         session_start();
         $_SESSION["admin"]=$nom;
-        header('Location: '. 'admin.php');
+        echo 'hola';
         
    }
    else{
 
         echo 'ERROR, CONTRASEÑA INCORRECTA';
-        include 'login.php';
+        
 
         
    }

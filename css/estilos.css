@@ -15,97 +15,22 @@
     padding: 10px 20px;
 }
 .titulo{
-    padding: 0px 270px;
-    border: solid 2px;
-    color: #029fd6;
+    color: #fff;
     font-size: 2rem;
     text-align: center;
-    font-family: Arial;
+    font-family: Quicksand;
     position: relative;
-    
-}
-.navegacion{ 
-    border: solid 2px black;
-    position: static;
-    text-align: center;
-}
-nav{
-    margin: 10px;
-    margin-top: 5%;
-    padding-left: 100px;
-    padding-right: 153px;
+    align-content: Center;
+    width: 100%;
+    padding-right: 150px;
+    background-color: #00263C;
     
 }
 
 
 
-ul{
-    position: relative;
-    top: 50px;
-}
-li {
-    display: inline-block;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-a{
-    font-size: 1.4rem;
-    padding-left: 110px;
-
-}
-li  {
-    padding: 10px 10px;
-    font-weight: bold;
-    display: block;
-    
-    color: black;
-    text-decoration: none;
-}
-li :hover {
-    background-color: blue;
-}
 
 
-.contenido{
-    
-    background: black;
-    color: white;
-    display: flex;
-}
-
-.menu{
-    text-align: left;
-    padding: 30px 50px;
-}
-
-.boton{
-    border: none;
-    color: white;
-    padding: 15px 35px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 60px;
-    cursor: pointer;
-    background:dodgerblue;
-    
-    
-
-}
-.button{
-    display: flex;
-    background: black;
-    
-}
-.boton1{
-    margin: 0px 190px;
-}
-.boton2{
-    margin: 0px 190px;
-}
-.boton3{
-    margin: 0px 190px;
-}
 
 
 
@@ -127,10 +52,10 @@ li :hover {
  }
  
  .caja_imagen{
-    background: url("/img/entrada.jpg") center center no-repeat;
+    background: url("../img/entrada.jpg") center center no-repeat;
     width: 100%;        
     overflow: hidden;
-    height: 88vh;
+    height: 87.4vh;
     position: relative;
     background-attachment: fixed;
     background-size:cover;
@@ -189,7 +114,7 @@ li :hover {
     padding-left: 100px;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=submit]{
     background-color: #158ED4;
     border-radius: 25px;
     color: white;
@@ -199,11 +124,30 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
     border-color:#158ED4;
 
+    
+
+
 
 }
 
+input[type=submit]:hover{
+
+    background-color: white;
+    border-radius: 25px;
+    color: #158ED4;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color:#158ED4;
+
+    
+
+}
 #logofooter{
 
     width: 70px;
+    padding-left: 20px;
     
 }
+
