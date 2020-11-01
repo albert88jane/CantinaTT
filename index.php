@@ -1,7 +1,10 @@
 
 <?php
+
+
  $_SESSION['pantalla']=1; 
 
+ 
  
 ?>
 <!DOCTYPE html>
@@ -43,7 +46,7 @@
     
         
            
-</div>
+
     <?php
 
         include 'php/footer.php'

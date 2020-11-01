@@ -11,14 +11,14 @@
 
    if($password == $logins[$nom]){
 
-        session_start();
+
         $_SESSION["admin"]=$nom;
         echo 'hola';
         
    }
    else{
 
-        echo 'ERROR, CONTRASEÑA INCORRECTA';
+     header('Location:'. 'error.php'); 
         
 
         
@@ -31,3 +31,8 @@
 
 
 
+<form action="" method="post"></form> 
+
+   <input type="submit" value="">
+
+</form>

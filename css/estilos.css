@@ -28,12 +28,6 @@
 }
 
 
-
-
-
-
-
-
 .footer1{
     
     bottom: 0;
@@ -60,6 +54,7 @@
     background-attachment: fixed;
     background-size:cover;
  }
+ 
  
  .texto_encima{  
     padding-right:15%;
@@ -151,3 +146,13 @@ input[type=submit]:hover{
     
 }
 
+.login_img{
+    background: url("../img/entrada.jpg") center center no-repeat;
+    width: 100%;        
+    overflow: hidden;
+    height: 87.4vh;
+    position: relative;
+    background-attachment: fixed;
+    background-size:cover;
+ }
+ 
