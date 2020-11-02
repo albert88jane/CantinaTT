@@ -134,9 +134,11 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="demanar">
-        <form action="" method="POST"><input class="demanar-boto" type="submit" value="Enviar comanda"></form>
+        <div class="demanar">
+            <form action="" method="POST">
+                <input class="demanar-boto" type="submit" value="Enviar comanda">
+            </form>
+        </div>
     </div>
     <h1>Dinars</h1>
     <div class="menu2">
@@ -263,12 +265,12 @@
                 </div>
             </div>
         </div>
+        <div class="demanar">
+            <form action="" method="POST">
+                <input class="demanar-boto" type="submit" value="Enviar comanda">
+            </form>
+        </div>
     </div>
-    <div class="demanar">
-        <form action="" method="POST"><input class="demanar-boto" type="submit" value="Enviar comanda"></form>
-    </div>
-
-    <?php include "php/footer.php";?>
-    
+    <?php include "php/footer.php";?>   
 </body>
 </html>
