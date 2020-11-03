@@ -1,7 +1,12 @@
-
 <?php
 
- $_SESSION['pantalla']=1; 
+
+ if(!isset ($_SESSION)){
+ session_start();
+}
+ 
+$_SESSION['pantalla']=1; 
+
 
 ?>
 

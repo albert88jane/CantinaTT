@@ -1,14 +1,19 @@
+<?php  
+    
+    session_start(); 
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
-<<<<<<< HEAD
     <link rel="stylesheet" href="css/menu.css">
-=======
-    <link rel="stylesheet" href="/css/estilos.css">
->>>>>>> 45e03266860a29ef249490e6e15ee99f37fd98a9
+    <link rel="stylesheet" href="css/estilos.css">
+
     <script src="script.js" defer></script>
 </head>
 <body>

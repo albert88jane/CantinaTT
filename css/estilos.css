@@ -148,7 +148,7 @@ input[type=submit]:hover{
     background-attachment: fixed;
     background-size:cover;
  }
-<<<<<<< HEAD
+
  h1{
     font-size: 8vh;
     text-align: center;
@@ -280,8 +280,6 @@ h2{
 * {
     box-sizing: border-box;
 }
-=======
-
 
 
 
@@ -324,9 +322,6 @@ form input[type="tel"]{
     
 }
 
-
-
-
 .buttons{
     text-align: center;
     
@@ -344,10 +339,3 @@ form input[type="tel"]{
     display: flex;
 }
 
-
-
-
-
-
-
->>>>>>> 15aa91e94e2c3a418828befa0a9f2e53a44305cc
