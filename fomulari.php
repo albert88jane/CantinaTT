@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/estilos.css">
     
   
       
 </head>
 <body>
     
-    <?php
-        include 'php/header.php';
-    ?>
+    <?php include 'php/header.php'; ?>
     
     <div class="formulari">
     
@@ -35,25 +33,16 @@
     	    <input type="submit" name="avança" value="Avança"/>
     	    </div>
         </div>
-        
-        </form>
+    </form>
         
         <div class="imagenes">
     	    
-    	    
-    	    
+    	    	    
         </div>
     	
     </div>
     
-    
-    
-    
-    
-
-    <?php
-        include 'php/footer.php'
-    ?>
+    <?php include 'php/footer.php' ?>
     
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
-    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <h2>Dolç</h2>
             <div class="productes">
                 <div class="producte1">
-                    <img class="imatgeProductes" src="./imatges/donutsxoco.jpg" alt="Donut">
+                    <img class="imatgeProductes" src="imatges/donutsxoco.jpg" alt="Donut">
                     <div class="titol"><h3>Donut</h3></div>
                     <div class="descripcio"><p>Donut de sucre o xocolata</p></div>
                     <div class="preu"><h3>1,00 €</h3></div>
