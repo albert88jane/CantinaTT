@@ -6,7 +6,7 @@
 
         print_r($_SESSION);
         
-
+        header('Location:'. '../menu.php');
 
     }else{
 
