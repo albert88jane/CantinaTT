@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/menu.css">
+=======
+    <link rel="stylesheet" href="/css/estilos.css">
+>>>>>>> 45e03266860a29ef249490e6e15ee99f37fd98a9
     <script src="script.js" defer></script>
 </head>
 <body>
-    <?php include 'php/header.php';?>
+    <?php include './php/header.php';?>
     <h1>Esmorzars i Berenars</h1>
     <div class="menu1">
         <div class="tipusMenjar1">
