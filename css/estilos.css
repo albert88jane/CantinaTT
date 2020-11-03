@@ -333,9 +333,19 @@ form input[type="tel"]{
    
 }
 
-.imagenes{
+.comandaActual{
     padding: 0px 190px;
     border: 2px solid black;
     display: flex;
+}
+
+.comanda{
+    
+    
+}
+
+.total{
+    
+    
 }
 

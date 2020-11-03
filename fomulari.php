@@ -35,8 +35,18 @@
         </div>
     </form>
         
-        <div class="imagenes">
-    	    
+        <div class="comandaActual">
+    	   <div class="comanda">
+    	       
+    	       
+    	   </div>
+            <div class="total">
+                
+                
+            </div> 
+                               
+                   
+                   
     	    	    
         </div>
     	
