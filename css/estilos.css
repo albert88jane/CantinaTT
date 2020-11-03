@@ -155,4 +155,85 @@ input[type=submit]:hover{
     background-attachment: fixed;
     background-size:cover;
  }
- 
+
+
+
+
+/* FORMULARI CSS */
+
+
+*{box-sizing:border-box;}
+
+.formulari{
+    display: flex;
+    width:1000px;
+	padding:60px 20px 80px 20px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #a1a1a1; 
+    
+}
+
+form{
+    padding-right: 20px;
+    width: 65%;
+}
+form label{
+	width: 80px;
+	font-weight:bold;
+    display: inline-block;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+	width:440px;
+	padding:5px 10px;
+    border:1px solid #f6f6f6;
+	border-radius:5px;
+	background-color:#f6f6f6;
+	margin:16px 0px;
+    display: inline-block;
+    
+}
+
+form input[type="submit"]{
+	padding:12px 40px;
+	margin-top:40px;
+    margin: 20px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	color:#fff;
+	background-color:#000;
+    
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+
+.buttons{
+    text-align: center;
+    
+}
+
+
+.muchotexto{
+    border: 2px solid black;
+   
+}
+
+.imagenes{
+    padding: 0px 190px;
+    border: 2px solid black;
+    display: flex;
+}
+
+
+
+
+
+
+
