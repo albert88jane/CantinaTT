@@ -1,11 +1,11 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 .barranav{    
     background-color: white;
     display: flex;
-    position: fixed;
+    position: relative;
     z-index: 40;
-    width:100%
+    width:100%;
 
     
 }
@@ -118,11 +118,6 @@ input[type=submit]{
     margin: 4px 2px;
     cursor: pointer;
     border-color:#158ED4;
-
-    
-
-
-
 }
 
 input[type=submit]:hover{
@@ -135,9 +130,7 @@ input[type=submit]:hover{
     margin: 4px 2px;
     cursor: pointer;
     border-color:#158ED4;
-
     
-
 }
 #logofooter{
 
@@ -155,4 +148,204 @@ input[type=submit]:hover{
     background-attachment: fixed;
     background-size:cover;
  }
- 
+
+ h1{
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+h2{
+    font-size: 5vh;
+    text-align: center;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    margin-bottom: 1vh;
+}
+
+.menu1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding-bottom: 1vh;   
+}
+
+.menu2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding-bottom: 1vh;   
+}
+
+.tipusMenjar1{
+    margin-right: 1vh;
+    opacity: 95%;
+}
+.tipusMenjar2{
+    margin-right: 1vh;
+    opacity: 95%;
+}
+.tipusMenjar3{
+    opacity: 95%;
+}
+
+.productes{
+    background-color: rgba(243, 237, 233, 0.541);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+.producte1{
+    background-color:whitesmoke;
+    width: 150px;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 4px;
+    
+}
+.producte2{
+    background-color: whitesmoke;
+    width: 150px;
+    height: auto;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 4px;
+}
+.producte3{
+    background-color:  whitesmoke;
+    width: 150px;
+    height: auto;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 4px;
+}
+
+.imatgeProductes{
+    width: 140px;
+    height: 150px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    display: block;
+}
+
+.titol{
+    margin-left: 1vh;
+    height: 50px;
+}
+
+.descripcio{
+    margin-left: 1vh;
+    max-width: 200px;
+    height: 90px;
+}
+
+.preu{
+    margin-left: 1vh;
+    height: 40px;
+}
+
+
+
+.quantitat{
+    margin-left: 1vh;
+}
+
+.quantitat-boto{
+    background-color: antiquewhite;
+}
+
+.demanar{
+    margin: auto;
+    max-width: fit-content;
+}
+.demanar-boto{
+    width: 150px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* FORMULARI CSS */
+
+
+*{box-sizing:border-box;}
+
+.formulari{
+    display: flex;
+    width:1000px;
+	padding:60px 20px 80px 20px;
+	border-radius:10px;
+	margin: 40px auto;
+	background-color: #a1a1a1; 
+    
+}
+
+form{
+    padding-right: 20px;
+    width: 65%;
+}
+form label{
+	width: 80px;
+	font-weight:bold;
+    display: inline-block;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]{
+	width:440px;
+	padding:5px 10px;
+    border:1px solid #f6f6f6;
+	border-radius:5px;
+	background-color:#f6f6f6;
+	margin:16px 0px;
+    display: inline-block;
+    
+}
+
+.buttons{
+    text-align: center;
+    
+}
+
+
+.muchotexto{
+    border: 2px solid black;
+   
+}
+
+.comandaActual{
+    padding: 0px 190px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.comanda{
+    
+    
+}
+
+.total{
+    
+    
+}
+
