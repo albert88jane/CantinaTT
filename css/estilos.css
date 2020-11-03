@@ -254,13 +254,7 @@ h2{
     height: 40px;
 }
 
-input{
-    border-radius: 3px;
-    border-width: 1px;
-    margin-bottom: 1vh;
-    margin-right: 1vh;
-    width: 120px;
-}
+
 
 .quantitat{
     margin-left: 1vh;
@@ -301,7 +295,7 @@ input{
     width:1000px;
 	padding:60px 20px 80px 20px;
 	border-radius:10px;
-	margin:auto;
+	margin: 40px auto;
 	background-color: #a1a1a1; 
     
 }
@@ -330,20 +324,7 @@ form input[type="tel"]{
     
 }
 
-form input[type="submit"]{
-	padding:12px 40px;
-	margin-top:40px;
-    margin: 20px;
-	border: 1px solid #000;
-	border-radius: 8px;
-	color:#fff;
-	background-color:#000;
-    
-} 
 
-form input[type="submit"]:hover{
-	cursor:pointer;
-}
 
 
 .buttons{
