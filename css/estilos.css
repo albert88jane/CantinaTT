@@ -128,6 +128,10 @@ input[type=submit]:hover{
     margin: 4px 2px;
     cursor: pointer;
     border-color:#158ED4;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1a80e933e826750ee95f19e6b13062a28f6665cd
 }
 
 #logofooter{
@@ -145,10 +149,13 @@ input[type=submit]:hover{
     background-size:cover;
  }
 
+<<<<<<< HEAD
 
 /* MENU CSS */ 
 
 
+=======
+>>>>>>> 1a80e933e826750ee95f19e6b13062a28f6665cd
  h1{
     font-size: 3em;
     text-align: center;
@@ -260,6 +267,11 @@ h3{
     height: 40px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1a80e933e826750ee95f19e6b13062a28f6665cd
 .quantitat{
     margin-left: 1vh;
 }
@@ -283,6 +295,15 @@ h3{
 }
 
 
+<<<<<<< HEAD
+=======
+* {
+    box-sizing: border-box;
+}
+
+
+
+>>>>>>> 1a80e933e826750ee95f19e6b13062a28f6665cd
 /* FORMULARI CSS */
 
 
@@ -293,7 +314,7 @@ h3{
     width:1000px;
 	padding:60px 20px 80px 20px;
 	border-radius:10px;
-	margin:auto;
+	margin: 40px auto;
 	background-color: #a1a1a1; 
 }
 
@@ -329,12 +350,23 @@ form input[type="tel"]{
     border: 2px solid black;
 }
 
-.imagenes{
+.comandaActual{
     padding: 0px 190px;
     border: 2px solid black;
     display: flex;
 }
 
+.comanda{
+    
+    
+}
 
+.total{
+    
+    
+}
 
+<<<<<<< HEAD
 >>>>>>> 15aa91e94e2c3a418828befa0a9f2e53a44305cc
+=======
+>>>>>>> 1a80e933e826750ee95f19e6b13062a28f6665cd
