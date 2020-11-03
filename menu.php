@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <?php include './php/header.php';?>
-    <h1>Esmorzars i Berenars</h1>
+    <h1>Esmorzars</h1>
     <div class="menu1">
         <div class="tipusMenjar1">
             <h2>Dolç</h2>
@@ -22,7 +22,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4"> 
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4"> 
                         </form>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -128,16 +128,11 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="demanar">
-            <form action="" method="POST">
-                <input class="demanar-boto" type="submit" value="Enviar comanda">
-            </form>
         </div>
     </div>
     <h1>Dinars</h1>
@@ -153,7 +148,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -165,7 +160,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -177,7 +172,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -194,7 +189,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -206,7 +201,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -218,7 +213,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4"> 
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4"> 
                         </form>
                     </div>
                 </div>
@@ -235,7 +230,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -247,7 +242,7 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
@@ -259,17 +254,17 @@
                     <div>
                         <form class="quantitat">
                             <label for="fname">Quantitat:</label>
-                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4 unitats" maxlength="4">
+                            <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="demanar">
-            <form action="" method="POST">
-                <input class="demanar-boto" type="submit" value="Enviar comanda">
-            </form>
-        </div>
+    </div>
+    <div class="demanar">
+        <form action="" method="POST">
+            <input class="demanar-boto" type="submit" value="Enviar comanda">
+        </form>
     </div>
     <?php include "php/footer.php";?>   
 </body>
