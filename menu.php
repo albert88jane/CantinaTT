@@ -266,7 +266,7 @@
         </div>
     </div>
     <div class="demanar">
-        <form action="" method="POST">
+        <form id="enviarComanda" action="" method="POST">
             <input class="demanar-boto" type="submit" value="Enviar comanda">
         </form>
     </div>
