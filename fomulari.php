@@ -16,7 +16,7 @@
     
     <div class="formulari">
     
-    <form action="#" target="" method="get" name="formDatosPersonales">
+    <form action="#" target="" method="get" id="formdatos">
         
         <div class="muchotexto">
     	    <label for="nombre">Nom</label>

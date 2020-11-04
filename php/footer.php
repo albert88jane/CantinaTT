@@ -7,7 +7,7 @@
 <div class="footer1">
            
            <div>
-               <img id="logofooter"src= "img/logo2.png"/>
+               <a href="/index.php"><img id="logofooter"src= "img/logo2.png"/></a>
            </div>    
        
        </div>
