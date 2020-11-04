@@ -148,7 +148,7 @@ input[type=submit]:hover{
 /* MENU CSS */ 
 
 h1{
-    font-size: 3em;
+    font-size: 3addem;
     text-align: center;
     margin-top: 50px;
 }
@@ -185,14 +185,12 @@ h3{
 
 .tipusMenjar1{
     margin-right: 1vh;
-    opacity: 95%;
 }
 .tipusMenjar2{
     margin-right: 1vh;
-    opacity: 95%;
 }
 .tipusMenjar3{
-    opacity: 95%;
+
 }
 
 .productes{
@@ -235,7 +233,6 @@ h3{
 
 .imatgeProductes{
     width: 140px;
-    height: 150px;
     margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
@@ -265,7 +262,7 @@ h3{
 
 .quantitat-boto{
     background-color: antiquewhite;
-    width: 120%;
+    width: 80px;
 }
 
 .demanar{
