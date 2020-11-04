@@ -19,7 +19,7 @@
 
 .titulo{
     color: #fff;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-weight: bold;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -31,12 +31,12 @@
 }
 
 .footer1{
-    bottom: 0;
     width: 100%;
+    position: relative;
     background: #00263C;
     color: white;
-    padding: 20px 0px 20px 0px; 
-    position: relative;
+    padding: 10px 0px 10px 0px;
+    
 }
 
 .imagen_inicio{
@@ -117,6 +117,7 @@ input[type=submit]{
     margin: 4px 2px;
     cursor: pointer;
     border-color:#158ED4;
+    margin-right: 30px;
 }
 
 input[type=submit]:hover{
@@ -285,13 +286,12 @@ h3{
 .formulari{
     display: flex;
     width:1000px;
-	padding:60px 20px 80px 20px;
+	padding:60px 100px 80px 20px;
 	border-radius:10px;
 	margin: 40px auto;
 	background-color: #a1a1a1; 
+    
 }
-
-
 
 
 #formdatos{
@@ -300,10 +300,11 @@ h3{
 }
 
 form label{
-	width: 80px;
+	width: 100px;
 	font-weight:bold;
     display: inline-block;
-    text-align: center;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 form input[type="text"],
@@ -314,20 +315,24 @@ form input[type="tel"]{
     border:1px solid #f6f6f6;
 	border-radius:5px;
 	background-color:#f6f6f6;
-	margin:16px 0px;
+	margin:16px 8px;
     display: inline-block;
 }
 
 .buttons{
-    text-align: center;
+    justify-content: center;
+    display: flex;
+  
 }
 
 .muchotexto{
     border: 2px solid black;
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .comandaActual{
-    padding: 0px 190px;
+    padding: 0px 230px;
     border: 2px solid black;
     display: flex;
 }

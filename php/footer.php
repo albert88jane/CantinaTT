@@ -6,7 +6,7 @@
 <body>
 <div class="footer1">
            
-           <div>
+           <div class="footer2">
                <a href="http://localhost/CantinaTT/#index.php"><img id="logofooter"src= "img/logo2.png"/></a>
            </div>    
        

@@ -16,9 +16,9 @@
     
     <div class="formulari">
     
-    <form action="#" target="" method="get" id="formdatos">
-        
         <div class="muchotexto">
+        
+        <form action="phpfunctions/formavanca.php" method="post">
     	    <label for="nombre">Nom</label>
     	    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
             <br>
@@ -26,15 +26,20 @@
     	    <input type="tel" name="telefon" id="telefon" placeholder="Telefón"/>
             <br>
 	        <label for="email" >Correu Electrónic</label>
-	        <input type="email" name="email" id="email" placeholder="email" required />
+	        <input type="email" name="email" id="email" placeholder="Email" required />
 	        <br>
-	        <div class="buttons">
-	        <input type="submit" name="torna" value="Torna"/>
-    	    <input type="submit" name="avança" value="Avança"/>
+	        
+	   </form>
+	       <div class="buttons">
+	           <form action="phpfunctions/formtorna.php" method="post">
+	                <input type="submit" name="torna" value="Torna"/>
+                </form>
+                <form action="phpfunctions/formavanca.php" method="post">
+                    <input type="submit" name="avança" value="Avança"/>
+                </form>
+    	    
     	    </div>
         </div>
-    </form>
-        
         <div class="comandaActual">
     	   <div class="comanda">
     	       
@@ -52,7 +57,7 @@
     	
     </div>
     
-    <?php include 'php/footer.php' ?>
+    <?php include 'php/footer.php'; ?>
     
 </body>
 </html>
