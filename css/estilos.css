@@ -145,6 +145,10 @@ input[type=submit]:hover{
     background-size:cover;
  }
 
+ #enviarComanda{
+     text-align: center;
+ }
+
 /* MENU CSS */ 
 
 h1{
