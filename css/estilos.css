@@ -35,7 +35,8 @@
     width: 100%;
     background: #00263C;
     color: white;
-    padding: 20px 0px 20px 0px;   
+    padding: 20px 0px 20px 0px; 
+    position: relative;
 }
 
 .imagen_inicio{
@@ -331,14 +332,5 @@ form input[type="tel"]{
     display: flex;
 }
 
-.comanda{
-    
-    
-}
-
-.total{
-    
-    
-}
 
 
