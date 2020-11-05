@@ -18,20 +18,23 @@ include '../php/header.php';
 
 date_default_timezone_set('UTC');
 
-$hoy = date('j-m-Y ');
+$hoy = date('j-m-Y');
 
-echo $hoy;
+
+echo "<div class=fechaHoy>$hoy</div>";
 $hola = "Que tal?<br/>com estas?<br/><br/><br/><br/>";
+
 if(! file_exists("$hoy.txt")){
 
 $fitxer = fopen("../ficheros/$hoy.txt", "c+");
-
+fclose($fitxer);
 
 }
 
 $fitxerdia = fopen("../ficheros/$hoy.txt","a");
-
+fwrite($fitxerdia, "<div class='comandaMostrar'>");
 fwrite($fitxerdia, $hola . PHP_EOL);
+fwrite($fitxerdia, "</div>");
 fclose($fitxerdia);
 
 
@@ -45,12 +48,35 @@ while(!feof($fitxerescriure)){
 
   fclose($fitxerescriure);
 
-include '../php/footer.php';
 
 ?>
 
+   <div class="comandesAnteriors">
+
+
+      <div class='formulariAdmin'>
+
+
+         <h3> Escull un dia per a visitar les comandes Realitzades en aquest<h3>
+             <form action="diaEscollit.php" method="post">
+
+               <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" ></input>
+               <input type="submit" value="Buscar"  ></input>
+
+            </form>
+      </div>
+
+
+
+
+   </div>
+
 </div>
+
+  <?php include '../php/footer.php'; ?>
+
 </body>
+
 </html>
 
 

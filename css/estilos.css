@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+/* Estilos del body y la landing page */
+
 * {
     box-sizing: border-box;
 }
@@ -444,3 +446,40 @@ form input[type="tel"]{
 }
 
 
+/* ADMIN */
+
+.fechaHoy{
+    
+    display: block;
+    width:1000px;
+    padding:20px 100px 20px 100px;
+    border-radius:10px;
+    margin: 40px auto;
+    background-color: #009FD6; 
+    text-align: center;
+           
+
+}
+
+.comandaMostrar{
+    
+    display: block;
+    width:1000px;
+    padding:20px 100px 20px 100px;
+    border-radius:10px;
+    margin: 40px auto;
+    background-color:#2CCAFF; 
+    text-align: center;
+           
+
+}
+
+.formulariAdmin{
+    display: block;
+    width:1000px;
+	padding:100px;
+	border-radius:10px;
+	margin: 40px auto;
+	background-color: #a1a1a1; 
+    text-align: center;
+}
