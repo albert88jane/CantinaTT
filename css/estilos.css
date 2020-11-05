@@ -20,7 +20,7 @@
 
 .titulo{
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 2.2em;
     font-weight: bold;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -118,7 +118,6 @@ input[type=submit]{
     margin: 4px 2px;
     cursor: pointer;
     border-color:#158ED4;
-    margin-right: 30px;
 }
 
 input[type=submit]:hover{
@@ -151,7 +150,12 @@ input[type=submit]:hover{
      text-align: center;
  }
 
+
+
+
 /* MENU CSS */ 
+
+
 
 h1{
     font-size: 3em;
