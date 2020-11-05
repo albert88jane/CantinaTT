@@ -14,6 +14,7 @@
     
     <?php include 'php/header.php'; ?>
     
+    <div class="container">
     <div class="formulari">
     
         <div class="muchotexto">
@@ -56,6 +57,7 @@
         </div>
     	
     </div>
+    </div>   
     
     <?php include 'php/footer.php'; ?>
     

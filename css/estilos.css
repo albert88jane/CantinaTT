@@ -384,5 +384,7 @@ form input[type="tel"]{
     display: flex;
 }
 
-
+.container{
+    height: 75vh;
+}
 
