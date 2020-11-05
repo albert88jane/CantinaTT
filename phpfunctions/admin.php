@@ -24,18 +24,7 @@ $hoy = date('j-m-Y');
 echo "<div class=fechaHoy>$hoy</div>";
 $hola = "Que tal?<br/>com estas?<br/><br/><br/><br/>";
 
-if(! file_exists("$hoy.txt")){
 
-$fitxer = fopen("../ficheros/$hoy.txt", "c+");
-fclose($fitxer);
-
-}
-
-$fitxerdia = fopen("../ficheros/$hoy.txt","a");
-fwrite($fitxerdia, "<div class='comandaMostrar'>");
-fwrite($fitxerdia, $hola . PHP_EOL);
-fwrite($fitxerdia, "</div>");
-fclose($fitxerdia);
 
 
 $fitxerescriure = fopen("../ficheros/$hoy.txt","r");

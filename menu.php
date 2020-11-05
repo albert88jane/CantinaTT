@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    if($_SESSION['pantalla']!=1){
+    if($_SESSION['pantalla'] !=1 ){
       
         header('Location:'. 'index.php');
     }
@@ -22,7 +22,7 @@
         <div class="tipusMenjar">
             <div class="tipusMenjar1">
                 <h2>Dolç</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="imatges/donutsxoco.jpg" alt="Donut">
                         <div class="titol"><h3>Donut</h3></div>
@@ -63,7 +63,7 @@
             </div> 
             <div class="tipusMenjar2">
                 <h2>Salat</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="./imatges/bikini.jpg" alt="Bikini">
                         <div class="titol"><h3>Bikini</h3></div>
@@ -104,7 +104,7 @@
             </div> 
             <div class="tipusMenjar3">
                 <h2>Begudes</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="./imatges/xocolatadesfeta.jpg" alt="Xocolata desfeta">
                         <div class="titol"><h3>Xocolata</h3></div>
@@ -150,7 +150,7 @@
         <div class="tipusMenjar">
             <div class="tipusMenjar1">
                 <h2>Entrepans</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="./imatges/sandwich.jpg" alt="Sandwich">
                         <div class="titol"><h3>Sandwich Cantina</h3></div>
@@ -191,7 +191,7 @@
             </div> 
             <div class="tipusMenjar2">
                 <h2>Plats Combinats</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="./imatges/burgueripatates.jpg" alt="Hamburguesa">
                         <div class="titol"><h3>Hamburguesa</h3></div>
@@ -232,7 +232,7 @@
             </div> 
             <div class="tipusMenjar3">
                 <h2>Begudes</h2>
-                <div class="productes">
+                <div class="prod">
                     <div class="producte1">
                         <img class="imatgeProductes" src="./imatges/aigua.jpg" alt="Aigua">
                         <div class="titol"><h3>Aigua</h3></div>
