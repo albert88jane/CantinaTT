@@ -5,7 +5,7 @@
     $_SESSION['pantalla']=3;
     if(!isset ($_SESSION['DIA']) != date('j')){
         
-        header('Location:' . 'comanda.php');        
+        header('Location:' . '../comanda.php');        
     }
 
 ?>
