@@ -288,6 +288,10 @@ h3{
 
 /* ERROR CSS */
 
+.container{
+    height: 66.2vh;
+}
+
 .error{
     display: block;
 }
@@ -325,6 +329,61 @@ h3{
 }
 
 .tornar-boto{
+    font-weight: bold;
+}
+
+/* COMANDA CSS */
+
+.pagina-comanda{
+    height: 66.2vh;
+    background-color: #BFE7FF; 
+}
+
+.total-pagament{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+.llista-productes{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 3.7vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.separacio{
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+    width: 92.5%;
+}
+
+.total{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+}
+
+#titol-total{
+    width: 88%;
+    padding-left: 3.7vh;
+}
+
+#preu{
+    
+}
+
+.confirmar-comanda{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.confirmar-boto{
     font-weight: bold;
 }
 
@@ -384,7 +443,4 @@ form input[type="tel"]{
     display: flex;
 }
 
-.container{
-    height: 75vh;
-}
 
