@@ -1,5 +1,9 @@
 <?php  
-    session_start(); 
+    session_start();
+    if($_SESSION['pantalla']!=3){
+      
+        header('Location:'. 'index.php');
+    }
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +27,7 @@
             </div>
         </div>
         <div class="confirmar-comanda">
-            <form id="confirmar" action="" method="POST">
+            <form id="confirmar" action="phpfunctions/admin.php" method="POST">
                 <input class="confirmar-boto" type="submit" value="Confirmar comanda">
             </form>
         </div>

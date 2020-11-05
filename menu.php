@@ -1,5 +1,9 @@
-<?php  
-    session_start(); 
+<?php 
+    session_start();
+    if($_SESSION['pantalla']!=1){
+      
+        header('Location:'. 'index.php');
+    }
 ?>
 
 <!DOCTYPE html>
@@ -269,7 +273,7 @@
         </div>
     </div>
     <div class="demanar">
-        <form id="enviarComanda" action="" method="POST">
+        <form id="enviarComanda" action="phpfunctions/enviar-comanda.php" method="POST">
             <input class="demanar-boto" type="submit" value="Enviar comanda">
         </form>
     </div>
