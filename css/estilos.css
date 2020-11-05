@@ -13,9 +13,9 @@
 }
 
 .logo{
-    display: inline-block;
-    border: solid 2px  #00263C;
+    display: block;
     padding: 10px 20px;
+    padding-top: 26px;
 }
 
 .titulo{
