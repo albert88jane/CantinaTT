@@ -1,3 +1,12 @@
+<?php 
+    session_start();
+    if($_SESSION['pantalla']!=1){
+      
+        header('Location:'. 'index.php');
+    }
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
