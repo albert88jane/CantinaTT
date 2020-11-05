@@ -1,4 +1,9 @@
 <?php
-    $_SESSION['pantalla']=2;
+
+    session_start();
+    $_SESSION['pantalla'] = 2;
+
     header('Location:'. '../formulari.php'); 
+
+    
 ?>
