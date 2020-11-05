@@ -29,8 +29,8 @@
                         <div class="preu"><h3>1,00 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="donut">Quantitat:</label>
+                                <input type="number" name="donut" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -41,8 +41,8 @@
                         <div class="preu"><h3>1,20 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="croisant">Quantitat:</label>
+                                <input type="number" name="croisant" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -53,8 +53,8 @@
                         <div class="preu"><h3>1,40 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="canyes">Quantitat:</label>
+                                <input type="number" name="canyes" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -70,8 +70,8 @@
                         <div class="preu"><h3>1,60 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="bikini">Quantitat:</label>
+                                <input type="number" name="bikini" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -82,8 +82,8 @@
                         <div class="preu"><h3>1,80 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="entrepacalent">Quantitat:</label>
+                                <input type="number" name="entrepacalent" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -94,8 +94,8 @@
                         <div class="preu"><h3>1,40 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4"> 
+                                <label for="pizza">Quantitat:</label>
+                                <input type="number" name="pizza" class="productos" value="" placeholder="Màxim 4" maxlength="4"> 
                             </form>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                         <div class="preu"><h3>1,40 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="xocolatadesfeta">Quantitat:</label>
+                                <input type="number" name="xocolatadesfeta" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -123,8 +123,8 @@
                         <div class="preu"><h3>1,20 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="cafe">Quantitat:</label>
+                                <input type="number" name="cafe" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -135,8 +135,8 @@
                         <div class="preu"><h3>1,40 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="suc">Quantitat:</label>
+                                <input type="number" name="suc" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -157,8 +157,8 @@
                         <div class="preu"><h3>2,00 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="sandwich">Quantitat:</label>
+                                <input type="number" name="sandwich" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -169,8 +169,8 @@
                         <div class="preu"><h3>1,80 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="entrepacalent">Quantitat:</label>
+                                <input type="number" name="entrepacalent" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -181,8 +181,8 @@
                         <div class="preu"><h3>1,90 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="entrepafred">Quantitat:</label>
+                                <input type="number" name="entrepafred" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -198,8 +198,8 @@
                         <div class="preu"><h3>3,90 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="hamburguesa">Quantitat:</label>
+                                <input type="number" name="hamburguesa" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -210,8 +210,8 @@
                         <div class="preu"><h3>5,50 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="pastadeldia">Quantitat:</label>
+                                <input type="number" name="pastadeldia" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -222,8 +222,8 @@
                         <div class="preu"><h3>6,80 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4"> 
+                                <label for="paixambverdures">Quantitat:</label>
+                                <input type="number" name="peixambverdures" class="productos" value="" placeholder="Màxim 4" maxlength="4"> 
                             </form>
                         </div>
                     </div>
@@ -239,8 +239,8 @@
                         <div class="preu"><h3>1,00 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="aigua">Quantitat:</label>
+                                <input type="number" name="aigua" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -251,8 +251,8 @@
                         <div class="preu"><h3>1,20 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="gaseosa">Quantitat:</label>
+                                <input type="number" name="gaseosa" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
@@ -260,11 +260,11 @@
                         <img class="imatgeProductes" src="./imatges/cafe2.jpg" alt="Cafe">
                         <div class="titol"><h3>Cafè</h3></div>
                         <div class="descripcio"><p>Cafè amb llet a escollir</p></div>
-                        <div class="preu"><h3>1,40 €</h3></div>
+                        <div class="preu"><h3>1,20 €</h3></div>
                         <div>
                             <form class="quantitat">
-                                <label for="fname">Quantitat:</label>
-                                <input type="number" name="fname" class="quantitat-boto" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="cafe">Quantitat:</label>
+                                <input type="number" name="cafe" class="productos" value="" placeholder="Màxim 4" maxlength="4">
                             </form>
                         </div>
                     </div>
