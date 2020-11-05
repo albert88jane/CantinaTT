@@ -1,38 +1,9 @@
+<?php 
 
- <?php
-
-    $logins = array("Albert"=>"albertpassword", "Alvaro"=>"alvaropassword", "Andrea"=>"andreapassword" , "Bayron"=>"bayronpassword");
-
-    $nom = $_REQUEST['usuari'];
-    $password = $_REQUEST['contrasenya'];
-    
-    
-   
-
-   if($password == $logins[$nom]){
-
-
-        $_SESSION["admin"]=$nom;
-        echo 'hola';
-        
-   }
-   else{
-
-     header('Location:'. 'error.php'); 
-        
-
-        
-   }
+   date_default_timezone_set('UTC');
+   $hoy = date('j / m / Y ');
+   echo $hoy;
 
    
+
 ?>
-
-
-
-
-
-<form action="" method="post"></form> 
-
-   <input type="submit" value="">
-
-</form>

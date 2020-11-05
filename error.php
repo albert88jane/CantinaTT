@@ -12,6 +12,7 @@
 </head>
 <body>
     <?php include './php/header.php';?> 
+    <div class="container">
     <div class="error">
         <div class="missatge">
             <div>
@@ -22,10 +23,11 @@
             </div>
         </div>
         <div class="tornar">
-            <form id="tornar" action="" method="POST">
+            <form id="tornar" action="index.php" method="POST">
                 <input class="tornar-boto" type="submit" value="Torna">
             </form>
         </div>
+    </div>
     </div>
     <?php include "php/footer.php";?> 
 </body>
