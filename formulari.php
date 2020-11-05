@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    if($_SESSION['pantalla']!=1){
+    if($_SESSION['pantalla']!=2){
       
         header('Location:'. 'index.php');
     }
