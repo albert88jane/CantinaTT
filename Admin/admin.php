@@ -57,11 +57,11 @@ while(!feof($fitxerescriure)){
       <div class='formulariAdmin'>
 
 
-         <h3> Escull un dia per a visitar les comandes Realitzades en aquest<h3>
+          <h3> Escull un dia per a visitar les comandes Realitzades en aquest</h3>
              <form action="diaEscollit.php" method="post">
 
-               <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" ></input>
-               <input type="submit" value="Buscar"  ></input>
+               <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" />
+               <input type="submit" value="Buscar"  />
 
             </form>
       </div>
