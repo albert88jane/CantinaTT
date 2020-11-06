@@ -16,7 +16,7 @@
     <div class="error">
         <div class="missatge">
             <div>
-                <img class="imatge-totem" src="./imatges/tassagominoles.jpg">
+                <img class="imatge-totem" src="./img/tassagominoles.jpg">
             </div>
             <div class="missatge-error">
                 <p>Ups! Sembla que ja has demanat.. Hauràs d'esperar a demà per fer una altra comanda.</p>
