@@ -1,0 +1,9 @@
+<Directory "ns1.labs.iam.cat/home/a19alvsildur/public_html/Admin">
+
+AllowOverride AuthConfig
+AuthType Basic
+AuthName "Acceso a Usuarios Autorizados."
+require valid-user
+AuthUserFile /ns1.labs.iam.cat/home/a19alvsildur/public_html/Admin/.htpasswd
+
+</Directory>

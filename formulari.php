@@ -1,5 +1,6 @@
 <?php 
     session_start();
+    
     if($_SESSION['pantalla']!=2){
       
         header('Location:'. 'index.php');
@@ -103,5 +104,20 @@
     
     <?php include 'php/footer.php'; ?>
     
+
+    <form action="" method="post">
+
+        <input type="text" name="" id="">
+
+
+    </form>
+
+    <script>
+
+        
+
+    </script>
+
+
 </body>
 </html>
