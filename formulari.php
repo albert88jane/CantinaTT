@@ -65,31 +65,29 @@
     <?php include 'php/header.php'; ?>
     
     <div class="container">
-    <div class="formulari">
+        <div class="formulari">
     
-        <div class="muchotexto">
+            <div class="muchotexto">
         
-        <form action="phpfunctions/formavanca.php" method="post">
-    	    <label for="nombre">Nom</label>
-    	    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
-            <br>
-    	    <label for="apellidos">Telefón</label>
-    	    <input type="tel" name="telefon" id="telefon" placeholder="Telefón"/>
-            <br>
-	        <label for="email" >Correu Electrónic</label>
-	        <input type="email" name="email" id="email" placeholder="Email" required />
-	        <br>
-	        <input type="hidden" id="lista" required />
-	        
-	   
+            <form action="phpfunctions/formavanca.php" method="post">
+    	        <label for="nombre">Nom</label>
+    	        <input type="text" name="nombre" id="nombre"    placeholder="Escribe tu nombre"/>
+                <br>
+    	        <label for="apellidos">Telefón</label>
+    	        <input type="tel" name="telefon" id="telefon"   placeholder="Telefón"/>
+                <br>
+	            <label for="email" >Correu Electrónic</label>
+	            <input type="email" name="email" id="email"     placeholder="Email" required />
+	            <br>
+	            <input type="hidden" id="lista" required />   
 	       <div class="buttons" style="
   display: flex; flex-flow: row-reverse  wrap-reverse;">
                 
                     <input type="submit" name="avança" value="Avança"/>
-                </form>
-	           <form action="phpfunctions/formtorna.php" method="post">
-	                <input type="submit" name="torna" value="Torna"/>
-                </form>
+            </form>
+	        <form action="phpfunctions/formtorna.php" method="post">
+	             <input type="submit" name="torna" value="Torna"/>
+            </form>
     	    
     	    </div>
         </div>
@@ -97,11 +95,11 @@
     	   <div>
     	       <p id="comanda"></p>
     	       
-    	   </div>
-            <div>
-                <p id="total"></p>
-                
-            </div> 
+           </div>
+           <hr id="separacio-total">
+           <div id="div-total">
+                <p id="total"></p>  
+           </div> 
                                
                    
                    
