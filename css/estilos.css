@@ -413,8 +413,8 @@ h3{
 
 .formulari{
     display: flex;
-    width:1000px;
-	padding:60px 100px 80px 20px;
+    width:750px;
+	padding:20px;
 	border-radius:10px;
 	margin: 40px auto;
 	background-color: #2CCAFF;
