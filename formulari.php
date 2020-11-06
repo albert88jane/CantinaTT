@@ -17,35 +17,48 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="css/estilos.css">
    
-    
-  
+             
+
     <script>
         
         let listaprod = JSON.parse(localStorage.getItem('producto'));
+
+        
+
         let listacant = JSON.parse(localStorage.getItem('cantidad'));
+
+        
+
         let productos = ["donut", "croissant", "canyes", "bikini", "entrepacalent", "pizza", "xocolata", "cafe", "suc", "sandwich", "entrepafred", "hamburguesa", "pastadeldia", "peixambverdures", "aigua", "gaseosa"];
         let precio = [1.00, 1.20, 1.40, 1.60, 1.80, 1.40, 1.40, 1.20, 1.40, 2.00, 1.90, 3.90, 5.50, 6.80, 1.00, 1.20];
         let listatotal = [];
         let cont= 0;
-        for (let i = 0; i < listaprod.length; i++) {
-            if (listaprod[i] == productos[i]) {
+
+
+        for (let i = 0; i < listacant.length; i++) {
+            
+            
+            for (let j = 0; j < productos.length; j++) {
                 
-                listatotal[cont] = listacant[i] * precio[i];
+                if( listaprod[i] == productos[j]){
+
+                    listatotal[i] = listacant[i] * precio[j];
+
+                }
                 
-                cont++;
             }
+            
         }
+
+
+        console.log(listatotal);
+
+       
         
         console.log(cont);
         console.log(listatotal);
-        let contenidoinput= "";
-        for (let i = 0; i < listaprod.length; i++) {
-            
-            contenidoinput += listaprod[i]+" x "+ listacant[i] + " = "+ listatotal[i] + "<br>"; 
-            
-        }
-        console.log(contenidoinput)
-        let input = document.getElementById("lista");
+        
+        
         
         
     </script>  
@@ -73,13 +86,14 @@
 	        <br>
 	        <input type="hidden" id="lista" required />
 	        
-	   </form>
-	       <div class="buttons">
+	   
+	       <div class="buttons" style="
+  display: flex; flex-flow: row-reverse  wrap-reverse;">
+                
+                    <input type="submit" name="avança" value="Avança"/>
+                </form>
 	           <form action="phpfunctions/formtorna.php" method="post">
 	                <input type="submit" name="torna" value="Torna"/>
-                </form>
-                <form action="phpfunctions/formavanca.php" method="post">
-                    <input type="submit" name="avança" value="Avança"/>
                 </form>
     	    
     	    </div>
@@ -113,7 +127,14 @@
     </form>
 
     <script>
-
+        let contenidoinput= "";
+        for (let i = 0; i < listaprod.length; i++) {
+            
+            contenidoinput += listaprod[i]+" x "+ listacant[i] + " = "+ listatotal[i] + "<br>"; 
+            
+        }
+        console.log(contenidoinput)
+        document.getElementById("lista").value = contenidoinput;
         
 
     </script>

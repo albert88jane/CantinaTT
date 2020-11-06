@@ -1,6 +1,3 @@
 <div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
 </div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
-</div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
-</div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
-</div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
 </div>

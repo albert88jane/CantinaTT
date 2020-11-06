@@ -36,7 +36,7 @@ $_SESSION['pantalla']=1;
                     </form>
                 </div>
                 <div id="adminbutton">
-                    <form action="phpfunctions/login.php">
+                    <form action="Admin/admin.php">
                         <input type="submit" value="Administració"/>
                     </form>
 

@@ -13,11 +13,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="Js/tranversal_menus.js">
     
     </head>
+    <script>
+            
+           window.onload = function () {
+                var horas = new Date();
+                var horaActual = horas.getHours();
+                var minutoActual = horas.getMinutes();
+                if (horaActual <= 11 & minutoActual >= 30) {
+                    document.getElementById('menu1').style.display = "block";
+                    document.getElementById('menu2').style.display = "none";
+                } else {
+                    document.getElementById('menu1').style.display = "none";
+                    document.getElementById('menu2').style.display = "block";
+                }
+           }
+
+           
+           
+           function comprobar() {
+    let producto = [];
+    let cantidad = [];
+    let cont = 0;
+    let inputs = document.getElementsByClassName("productos");
+
+    for (let i = 0; i < inputs.length; i++) {
+
+        let productoActual = document.getElementsByClassName("productos")[i];
+        console.log(productoActual);
+
+        let valor = productoActual.value;
+        console.log(valor);
+
+        let idproducto = productoActual.getAttribute("name");
+        console.log(idproducto);
+
+
+        if (valor > 0) {
+
+            producto[cont] = idproducto;
+            cantidad[cont] = valor;
+            cont += 1;
+        }
+        console.log(valor);
+    }
+    localStorage.setItem("producto", JSON.stringify(producto));
+    localStorage.setItem("cantidad", JSON.stringify(cantidad));
+
+    location.href = 'phpfunctions/enviar-comanda.php';
+
+}
+
+           
+       </script>
 <body>
     <?php include './php/header.php';?>
-    <div class="menu1">
+    <div id="menu1">
         <h1>Esmorzars</h1>
         <div class="tipusMenjar">
             <div class="tipusMenjar1">
@@ -145,7 +198,7 @@
             </div>
         </div>
     </div>
-    <div class="menu2">
+    <div id="menu2">
         <h1>Dinars</h1>
         <div class="tipusMenjar">
             <div class="tipusMenjar1">
@@ -275,43 +328,7 @@
     </div>
     <div class="demanar">
        <button onclick="comprobar();">Enviar comanda</button>
-       <script>
-            
-           function comprobar() {
-    let producto = [];
-    let cantidad = [];
-    let cont = 0;
-    let inputs = document.getElementsByClassName("productos");
-
-    for (let i = 0; i < inputs.length; i++) {
-
-        let productoActual = document.getElementsByClassName("productos")[i];
-        console.log(productoActual);
-
-        let valor = productoActual.value;
-        console.log(valor);
-
-        let idproducto = productoActual.getAttribute("name");
-        console.log(idproducto);
-
-
-        if (valor > 0) {
-
-            producto[cont] = idproducto;
-            cantidad[cont] = valor;
-            cont += 1;
-        }
-        console.log(valor);
-    }
-    localStorage.setItem("producto", JSON.stringify(producto));
-    localStorage.setItem("cantidad", JSON.stringify(cantidad));
-
-    location.href = 'phpfunctions/enviar-comanda.php';
-
-}
-
-           
-       </script>
+       
 <!--
         <form id="enviarComanda" action="phpfunctions/enviar-comanda.php" method="POST">
             <input class="demanar-boto" type="submit" value="Enviar comanda">
