@@ -122,7 +122,6 @@ input[type=submit]{
     border-color:#158ED4;
 }
 
-
 input[type=submit]:hover{
 
     background-color: white;
@@ -158,9 +157,6 @@ button[id="boto-comanda"]:hover{
     cursor: pointer;
     border-color:#158ED4;
 }
-
-
-
 
 #logofooter{
     width: 70px;
@@ -421,8 +417,7 @@ h3{
 	padding:60px 100px 80px 20px;
 	border-radius:10px;
 	margin: 40px auto;
-	background-color: #a1a1a1; 
-    
+	background-color: #2CCAFF;
 }
 
 
@@ -459,16 +454,39 @@ form input[type="tel"]{
 
 .muchotexto{
     border: 2px solid black;
+    border-radius: 4px;
     margin-right: 20px;
     padding-right: 20px;
 }
 
 .comandaActual{
-    padding: 0px 230px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
     border: 2px solid black;
-    display: flex;
+    border-radius: 4px;
+    display: block;
 }
 
+#comanda{
+    padding-left: 1vh;
+}
+
+#div-total{
+    text-align: center;
+    
+}
+
+#separacio-total{
+    height: 2px;
+    background-color: black;
+    border-radius: 2px;
+    width: 92.5%;
+}
+
+#total{
+    padding-right: 1vh;
+}
 
 /* ADMIN */
 
