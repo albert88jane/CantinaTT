@@ -18,19 +18,15 @@
         </div>
         
         <div class="divbotons">
-               <div id="menubutton">
-               <form action="admin.php" method="post">
-    
-    <input type="text" value="Nom Usuari" name="usuari"></input>
-    <input type="password" value= "" name="contrasenya"> </input>
-    <input type="submit" value="Log In"></input>
+            <div id="menubutton">
+               <form action="phpfunctions/admin.php" method="post">
+                    <input type="text" value="Nom Usuari" name="usuari"/>
+                    <input type="password" value= "" name="contrasenya"/> 
+                    <input type="submit" value="Log In"/>
+                </form>
 
-
-
-    </form>
-
-                </div>
             </div>
+        </div>
 
     </div>
 
