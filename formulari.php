@@ -49,15 +49,11 @@
             }
             
         }
-
-
-        console.log(listatotal);
-
-       
         
-        console.log(cont);
-        console.log(listatotal);
-        
+        let total = 0;
+        for (let i = 0; i < listatotal.length; i++) {
+            total += listatotal[i];
+        }
         
         
         
@@ -99,12 +95,12 @@
     	    </div>
         </div>
         <div class="comandaActual">
-    	   <div class="comanda">
-    	       
+    	   <div>
+    	       <p id="comanda"></p>
     	       
     	   </div>
-            <div class="total">
-                
+            <div>
+                <p id="total"></p>
                 
             </div> 
                                
@@ -135,7 +131,8 @@
         }
         console.log(contenidoinput)
         document.getElementById("lista").value = contenidoinput;
-        
+        document.getElementById("comanda").innerHTML = contenidoinput;
+        document.getElementById("total").innerHTML = total;
 
     </script>
 
