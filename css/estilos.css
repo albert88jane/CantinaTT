@@ -111,7 +111,7 @@
     padding-left: 100px;
 }
 
-input[type=submit], #boto-comanda{
+input[type=submit]{
     background-color: #158ED4;
     border-radius: 25px;
     color: white;
@@ -122,7 +122,9 @@ input[type=submit], #boto-comanda{
     border-color:#158ED4;
 }
 
-input[type=submit]:hover, #boto-comanda:hover{
+
+input[type=submit]:hover{
+
     background-color: white;
     border-radius: 25px;
     color: #158ED4;
@@ -132,6 +134,33 @@ input[type=submit]:hover, #boto-comanda:hover{
     cursor: pointer;
     border-color:#158ED4;
 }
+
+button[id="boto-comanda"]{
+
+    background-color: #158ED4;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color:#158ED4;
+}
+
+button[id="boto-comanda"]:hover{
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    color: #158ED4;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color:#158ED4;
+}
+
+
+
 
 #logofooter{
     width: 70px;
@@ -279,6 +308,7 @@ h3{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 .productes{
     background-color: antiquewhite;
