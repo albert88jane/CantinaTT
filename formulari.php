@@ -49,7 +49,6 @@
             }
             
         }
-        
         let total = 0;
         for (let i = 0; i < listatotal.length; i++) {
             total += listatotal[i];
@@ -114,14 +113,6 @@
     
     <?php include 'php/footer.php'; ?>
     
-
-    <form action="" method="post">
-
-        <input type="text" name="" id="">
-
-
-    </form>
-
     <script>
         let contenidoinput= "";
         for (let i = 0; i < listaprod.length; i++) {
