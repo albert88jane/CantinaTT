@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../css/estilos.css">
-   <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
 </head>
 
 <body>
@@ -12,7 +13,7 @@
 
     <div class="container">
 
-    <?php 
+        <?php 
 
         include '../php/header.php';
 
@@ -29,14 +30,9 @@
         $fitxer = fopen("../ficheros/$hoy.txt", "c+");
         fclose($fitxer);
 
-        }
+            }
 
-        $fitxerdia = fopen("../ficheros/$hoy.txt","a");
-        fwrite($fitxerdia, "<div class='comandaMostrar'>");
-        fwrite($fitxerdia, $hola . PHP_EOL);
-        fwrite($fitxerdia, "</div>");
-        fclose($fitxerdia);
-
+      
 
         $fitxerescriure = fopen("../ficheros/$hoy.txt","r");
 
@@ -51,32 +47,30 @@
 
     ?>
 
-   <div class="comandesAnteriors">
+        <div class="comandesAnteriors">
 
 
-      <div class='formulariAdmin'>
+            <div class='formulariAdmin'>
 
 
-          <h3> Escull un dia per a visitar les comandes Realitzades en aquest</h3>
-             <form action="diaEscollit.php" method="post">
+                <h3> Escull un dia per a visitar les comandes Realitzades en aquest</h3>
+                <form action="./phpfunctions/diaEscollit.php" method="post">
 
-               <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" />
-               <input type="submit" value="Buscar"  />
+                    <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" />
+                    <input type="submit" value="Buscar" />
 
-            </form>
-      </div>
-
-
+                </form>
+            </div>
 
 
-   </div>
 
-</div>
 
-  <?php include '../php/footer.php'; ?>
+        </div>
+
+    </div>
+
+    <?php include '../php/footer.php'; ?>
 
 </body>
 
 </html>
-
-

@@ -1,6 +1,0 @@
-AuthType Basic
-AuthName "Acceso a Usuarios Autorizados."
-require valid-user
-AuthUserFile C:\xampp\htdocs\CantinaTT\.htpasswd
-
-

@@ -1,6 +1,8 @@
 <?php
+    
+    session_start();
 
-    echo $_SESSION['pantalla'];
+    $_SESSION['pantalla']= 1;
     if(!isset ($_SESSION['DIA']) || $_SESSION['DIA'] != date('j')){
 
 
@@ -10,7 +12,7 @@
 
     }else{
 
-        header('Location:'. 'error.php'); 
+        header('Location:'. '../error.php'); 
     }
 
 

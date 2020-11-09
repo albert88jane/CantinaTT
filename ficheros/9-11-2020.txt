@@ -1,0 +1,8 @@
+<div class='comandaMostrar'>
+Albert
+<br>
+123456789
+<br>
+albert.jane.4@gmail.com
+<br>
+donut x 1 = 1<br>croissant x 2 = 2.4<br>canyes x 1 = 1.4<br>bikini x 2 = 3.2<br>
