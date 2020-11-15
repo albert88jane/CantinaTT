@@ -417,7 +417,7 @@ h3 {
 
 .formulari {
     display: flex;
-    width: 750px;
+    width: 800px;
     padding: 20px;
     border-radius: 10px;
     margin: 40px auto;
@@ -466,7 +466,7 @@ form input[type="tel"] {
 .comandaActual {
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 300px;
     border: 2px solid black;
     border-radius: 4px;
     display: block;

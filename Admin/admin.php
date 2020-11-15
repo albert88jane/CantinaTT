@@ -54,7 +54,7 @@
 
 
                 <h3> Escull un dia per a visitar les comandes Realitzades en aquest</h3>
-                <form action="./phpfunctions/diaEscollit.php" method="post">
+                <form action="../phpfunctions/diaEscollit.php" method="post">
 
                     <input type="text" name="diaE" id="diaE" placeholder="dd-mm-AAAA" />
                     <input type="submit" value="Buscar" />

@@ -29,8 +29,8 @@
 
 
 
-        let productos = ["donut", "croissant", "canyes", "bikini", "entrepacalent", "pizza", "xocolata", "cafe", "suc", "sandwich", "entrepafred", "hamburguesa", "pastadeldia", "peixambverdures", "aigua", "gaseosa"];
-        let precio = [1.00, 1.20, 1.40, 1.60, 1.80, 1.40, 1.40, 1.20, 1.40, 2.00, 1.90, 3.90, 5.50, 6.80, 1.00, 1.20];
+        let productos = ["Donut", "Croissant", "Canyes", "Bikini", "Entrepà calent", "Pizza", "Xocolata desfeta", "Cafè", "Suc", "Sandwich", "Entrepà fred", "Hamburguesa", "Pasta del dia", "Peix amb verdures", "Aigua", "Gaseosa"];
+        let precio = [1.00, 1.20, 1.40, 1.60, 1.80, 1.40, 1.40, 1.20, 1.40, 2.00, 1.90, 3.90, 5.50, 6.80, 1.00, 1.20] ;
         let listatotal = [];
         let cont = 0;
 
@@ -73,10 +73,11 @@
                     <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
                     <br>
                     <label for="apellidos">Telefón</label>
-                    <input type="tel" name="telefon" id="telefon" placeholder="Telefón" />
+                    <input type="tel" name="telefon" id="telefon" placeholder="Telefón" maxlength="9" pattern="[0-9]{9}" title="Utilice Números" />
                     <br>
                     <label for="email">Correu Electrónic</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <input type="email" name="email" id="email" placeholder="ejemplo@inspedralbes.cat"
+                     title="@inspedralbes.cat" pattern=".+@inspedralbes.cat" required />
                     <br>
                     <input type="hidden" id="lista" name="comanda" required />
                     <div class="buttons" style="
@@ -120,7 +121,7 @@
         console.log(contenidoinput)
         document.getElementById("lista").value = contenidoinput;
         document.getElementById("comanda").innerHTML = contenidoinput;
-        document.getElementById("total").innerHTML = total;
+        document.getElementById("total").innerHTML = total.toFixed(2);
 
     </script>
 

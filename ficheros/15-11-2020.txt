@@ -1,0 +1,47 @@
+<div class='comandaMostrar'></div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
+</div><div class='comandaMostrar'></div><div class='comandaMostrar'>Que tal?<br/>com estas?<br/><br/><br/><br/>
+</div><div class='comandaMostrar'>
+bayron
+<br>
+654654654
+<br>
+asindaisda@nasdnasd.com
+<br>
+sandwich x 1 = 2<br>entrepacalent x 1 = 1.8<br>entrepafred x 1 = 1.9<br>
+</div>
+<div class='comandaMostrar'>
+a
+<br>
+a
+<br>
+asd@asdasd
+<br>
+entrepacalent x 1 = 1.8<br>hamburguesa x 1 = 3.9<br>aigua x 1 = 1<br>
+</div>
+<div class='comandaMostrar'>
+
+<br>
+654654654
+<br>
+a19baylopmej@inspedralbes.cat
+<br>
+sandwich x 2 = 4<br>entrepacalent x 2 = 3.6<br>entrepafred x 1 = 1.9<br>gaseosa x 1 = 1.2<br>cafe x 1 = 1.2<br>
+</div>
+<div class='comandaMostrar'>
+Bayron2
+<br>
+654987654
+<br>
+a19baylopmej@inspedralbes.cat
+<br>
+Sandwich x 2 = 4<br>Entrepà calent x 2 = 3.6<br>Aigua x 2 = 2<br>
+</div>
+<div class='comandaMostrar'>
+Albert
+<br>
+654987978
+<br>
+a19baylopmej@inspedralbes.cat
+<br>
+Sandwich x 2 = 4<br>Entrepà calent x 2 = 3.6<br>Entrepà fred x 2 = 3.8<br>Hamburguesa x 2 = 7.8<br>
+</div>

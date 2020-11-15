@@ -89,8 +89,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="donut">Quantitat:</label>
-                                <input type="number" name="donut" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Donut">Quantitat:</label>
+                                <input type="number" name="Donut" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="croissant">Quantitat:</label>
-                                <input type="number" name="croissant" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Croissant">Quantitat:</label>
+                                <input type="number" name="Croissant" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -125,8 +125,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="canyes">Quantitat:</label>
-                                <input type="number" name="canyes" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Canyes">Quantitat:</label>
+                                <input type="number" name="Canyes" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -148,8 +148,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="bikini">Quantitat:</label>
-                                <input type="number" name="bikini" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Bikini">Quantitat:</label>
+                                <input type="number" name="Bikini" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -166,8 +166,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="entrepacalent">Quantitat:</label>
-                                <input type="number" name="entrepacalent" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Entrepà calent">Quantitat:</label>
+                                <input type="number" name="Entrepà calent" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -184,8 +184,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="pizza">Quantitat:</label>
-                                <input type="number" name="pizza" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Pizza">Quantitat:</label>
+                                <input type="number" name="Pizza" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -207,8 +207,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="xocolata">Quantitat:</label>
-                                <input type="number" name="xocolata" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Xocolata">Quantitat:</label>
+                                <input type="number" name="Xocolata" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -225,8 +225,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="cafe">Quantitat:</label>
-                                <input type="number" name="cafe" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Cafè">Quantitat:</label>
+                                <input type="number" name="Cafè" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -243,8 +243,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="suc">Quantitat:</label>
-                                <input type="number" name="suc" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Suc">Quantitat:</label>
+                                <input type="number" name="Suc" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -271,8 +271,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="sandwich">Quantitat:</label>
-                                <input type="number" name="sandwich" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Sandwich">Quantitat:</label>
+                                <input type="number" name="Sandwich" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -289,8 +289,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="entrepacalent">Quantitat:</label>
-                                <input type="number" name="entrepacalent" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Entrepà calent">Quantitat:</label>
+                                <input type="number" name="Entrepà calent" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -307,8 +307,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="entrepafred">Quantitat:</label>
-                                <input type="number" name="entrepafred" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Entrepà fred">Quantitat:</label>
+                                <input type="number" name="Entrepà fred" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -330,8 +330,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="hamburguesa">Quantitat:</label>
-                                <input type="number" name="hamburguesa" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Hamburguesa">Quantitat:</label>
+                                <input type="number" name="Hamburguesa" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -348,8 +348,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="pastadeldia">Quantitat:</label>
-                                <input type="number" name="pastadeldia" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Pasta del dia">Quantitat:</label>
+                                <input type="number" name="Pasta del dia" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -366,8 +366,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="paixambverdures">Quantitat:</label>
-                                <input type="number" name="peixambverdures" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Peix amb verdures">Quantitat:</label>
+                                <input type="number" name="Peix amb verdures" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -389,8 +389,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="aigua">Quantitat:</label>
-                                <input type="number" name="aigua" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Aigua">Quantitat:</label>
+                                <input type="number" name="Aigua" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -407,8 +407,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="gaseosa">Quantitat:</label>
-                                <input type="number" name="gaseosa" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Gaseosa">Quantitat:</label>
+                                <input type="number" name="Gaseosa" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>
@@ -425,8 +425,8 @@
                         </div>
                         <div>
                             <form class="quantitat">
-                                <label for="cafe">Quantitat:</label>
-                                <input type="number" name="cafe" class="productos" value="" placeholder="Màxim 4" maxlength="4">
+                                <label for="Cafè">Quantitat:</label>
+                                <input type="number" name="Cafè" class="productos" value="" placeholder="Màxim 4" min="0" max="4">
                             </form>
                         </div>
                     </div>

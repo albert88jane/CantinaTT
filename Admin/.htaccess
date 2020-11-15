@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acceso a Usuarios Autorizados."
+require valid-user
+AuthUserFile "../htdocs/CantinaTT/.htpasswd"
